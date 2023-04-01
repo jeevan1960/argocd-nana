@@ -10,9 +10,8 @@ spec:
     repoURL: https://github.com/jeevan1960/argocd-nana.git
     targetRevision: HEAD
     path: dev
-
   destination:
-    server: https://kubernetes.defult.svc
+    server: https://kubernetes.default.svc
     namespace: myapp
 
   syncPolicy:
