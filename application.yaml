@@ -7,10 +7,10 @@ spec:
   project: default
   
   source:
-    repoURL: https://github.com/jeevan1960/argocd-nana
+    repoURL: https://github.com/jeevan1960/argocd-nana.git
     targetRevision: HEAD
     path: dev
-    
+
   destination:
     server: https://kubernetes.defult.svc
     namespace: myapp
